@@ -1,0 +1,11 @@
+package com.quotation.productservices1.services;
+
+public class ProductServices {
+	private int pid;
+	private String pname;
+	private String desp;
+	private String details;
+	private int maxLocations;
+	private String category;
+	private List<Features> feature;
+}

@@ -1,0 +1,16 @@
+package com.quotation.productservices1.entity;
+
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+public class Parameters {
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+private int para_id;
+private String para_name;
+private String para_desp;
+private String para_details;
+private ParameterType para_type;
+}
+

@@ -1,0 +1,5 @@
+package com.quotation.productservices1.entity;
+
+public class Product {
+
+}

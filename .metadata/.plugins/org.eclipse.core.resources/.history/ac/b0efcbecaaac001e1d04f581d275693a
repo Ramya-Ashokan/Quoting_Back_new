@@ -1,0 +1,9 @@
+package com.quotation.productservices1.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.fasterxml.jackson.annotation.JsonFormat.Features;
+
+public interface FeaturesRepository extends JpaRepository<Features, Integer> {
+
+}

@@ -1,0 +1,5 @@
+package com.quotation.productservices1.repository;
+
+public interface FeaturesRepository extends JpaRepository<Product, ID>{
+
+}

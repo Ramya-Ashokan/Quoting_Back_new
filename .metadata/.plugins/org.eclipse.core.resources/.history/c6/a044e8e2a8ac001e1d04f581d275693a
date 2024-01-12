@@ -1,0 +1,16 @@
+package com.quotation.productservices1.services;
+
+import java.util.List;
+
+import com.quotation.productservices1.entity.Features;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+
+public class ProductServices {
+
+}
